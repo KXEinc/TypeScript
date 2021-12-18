@@ -16,6 +16,7 @@ const e1: ElevatedEmployee = {
   startDate: new Date(),
 };
 
+// @ts-ignore
 type Combinable = string | number;
 type Numeric = number | boolean;
 
